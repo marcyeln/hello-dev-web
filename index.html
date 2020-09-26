@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>formulário</h1>
+    <form>
+     <input type="text" id="nome_usuario" name="nome_usuario"  placeholder="nome completo">
+       
+
+       <br>
+        <input type="text" id="email_usuario" name="email_usuario" placeholder="e-mail" required >
+       
+        
+        <input type="number" id="telefone_usuario" name="telefone_usuario" placeholder="telefone" required >
+
+       <br>
+           <input type="text" id="logradouro_usuario" name="logradouro_usuario" placeholder="logradouro">
+           <input type="number" id="número_logradouro" name="número_logradouro" placeholder="Nº:">
+         
+           <br>
+
+           <input type="text" id="cidade_usuario" name="cidade_usuario" placeholder="cidade" required>
+           <input type="text" id="estado_usuario" name="estado_usuario" placeholder="estado" required>
+         
+
+             <br>
+
+           <input type="number" id="cep_usuario" name="cep_usuario" placeholder="cep" required> 
+           
+           <br>
+
+            <label for="estado civil"> estado civil: </label>
+            <select name="estado civil" id="estado civil">
+                 <option value="0" selected>--selecione--</option>
+                <option value="1">solteiro(a)</option>
+                   <option value="2">viúvo(a)</option>
+                   <option value="3">casado(a)</option>
+                   <option value="4">divorciado(a)</option>
+                   <option value="5">separado(a)</option>           
+                   
+
+                   <br>
+                       <fieldset>
+                      <label for="preferencia"> preferencia de contato </label>
+                     <select name="preferencia" id="preferencia"></select>
+                     <fieldset>
+                     <legend> <option value="0" selected>preferência de contato:</option> </legend>
+                    <input type="radio" id="preferencia_contato_email" name="preferencia_contato" value="1">
+                   <label for="preferencia_contato_email">e-mail</label> 
+                   <input type="radio" id="preferencia_contato" name="preferencia_contato" value="2">
+                   <label for="preferencia_contato_telefone">telefone</label> 
+                    </fieldset>
+                    
+                
+                
+                   <br>
+                   
+
+               <input type="checkbox" id="li e concordo" name="li e concordo">
+               <label for="li e concordo">li e concordo com os termos</label>
+                 
+ 
+               <br>
+                  <button type="submit">enviar</button>>
+                    <button type="reset"> reiniciar preechimento</button>
+                 
+
+
+                </form>
+            
+    </body>
+</html> 
